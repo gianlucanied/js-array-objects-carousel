@@ -14,3 +14,14 @@ const images = [
     
     { image: '05.webp', title: "Marvel's Avengers", text: 'Marvel\'s Avengers is an epic, third-person, action-adventure game that combines an original, cinematic story with single-player and co-operative gameplay.', } 
 ]; 
+
+// Creiamo le variabili 
+
+// Creo la variabile per lo slider
+const slider = document.getElementById("slider");
+
+// Creo la variabile per i titoli delle img
+const infoTitle = document.getElementById("info-title");
+
+// Creo la variabile per i text delle img
+const infoText = document.getElementById("info-text");
