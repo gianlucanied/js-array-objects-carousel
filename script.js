@@ -25,3 +25,15 @@ const infoTitle = document.getElementById("info-title");
 
 // Creo la variabile per i text delle img
 const infoText = document.getElementById("info-text");
+
+// Inizializziamo il carosello
+infoTitle.innerHTML = images[0].title;
+infoText.innerHTML = images[0].text;
+
+
+// Assegniamo alla classe una variabile
+const listImg = document.querySelectorAll(".slider-img");
+
+// Assegno ai button delle variabili
+const upButton = document.getElementById("up-button");
+const downButton = document.getElementById("down-button");
